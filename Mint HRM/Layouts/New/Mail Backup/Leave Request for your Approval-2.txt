@@ -1,0 +1,9 @@
+Hi [approver_name],<br> 
+[requester_name] has applied leave from [leave_start]  to [leave_end]. [coverup_name] has agreed to cover-up in his/her absence. You may click below to approve or reject this request for leave.<br />. 
+ <br>
+[leave_dates]<br>
+<br>
+ <a href="[approver_accept_url]" style="color: #fff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Accept</a><br>
+ <a href="[approver_reject_url]" style="color: #fff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Reject</a><br>
+This is auto generated Email if you need more clarification please contact HR Department.<br>
+Thanks.

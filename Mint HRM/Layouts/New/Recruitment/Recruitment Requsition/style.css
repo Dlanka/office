@@ -1,0 +1,295 @@
+.mt-5 {
+    margin-top: 5px;
+}
+
+.ptb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.contert-wrapper {
+    margin-bottom: 30px;
+}
+
+.hide-area {
+    display: none;
+}
+
+.details {
+    color: #434849;
+    font-size: 14px;
+}
+
+h5.u-name,
+h5.details,
+.emp-no {
+    color: #4e4f4b;
+    font-weight: 400;
+}
+
+.up-case {
+    text-transform: uppercase;
+}
+
+.tx-right {
+    text-align: right;
+}
+
+h6.text-blue {
+    color: #49b3cc;
+}
+
+/*=============================================
+   Top Panel
+=============================================*/
+.cmb-duration {
+    display: none;
+}
+
+.emp-no {
+    padding-top: 18px;
+}
+
+.after_sc {
+    display: none;
+}
+
+h5.sc-text {
+    color: rgba(78, 79, 75, 0.56);
+}
+
+.sc-wrapper {
+    position: relative;
+}
+
+input.input-search {
+    padding-left: 25px;
+    border-bottom-color: #168ca8;
+}
+
+.ic_search {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    background: url("../../images/system/icon/recruitment/15/ic_15_search.png");
+}
+
+.emp-block,
+.emp-block .img-border {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.emp-block {
+    width: 100%;
+}
+
+.emp-block .u-name {
+    display: inline;
+    margin-left: 10px;
+}
+
+.img-border {
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+    border: 2px solid transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.search-emp .img-border {
+    border: 2px solid #53b7cf;
+}
+
+button.btn-left {
+    float: left;
+    margin: 15px 0;
+}
+
+.radio-grp .lcs_wrap {
+    float: right;
+}
+
+.JD_btnWrap {
+    display: none;
+}
+
+.newWrap .radio-grp {
+    height: 35px;
+}
+
+.emp-wrp {
+    display: inline-block;
+}
+
+/*-----------------------------------------
+       Resign img wrp
+-------------------------------------------*/
+.resign-emp .img-wrp--35 {
+    border: 3px solid #fff;
+    box-sizing: content-box;
+}
+
+.resign-emp:hover {
+    z-index: 999;
+}
+
+.resign-emp .img-wrp--35:hover {
+    border: 3px solid #f26b55;
+}
+
+.resign-emp {
+    float: right;
+    position: relative;
+}
+
+.resign-emp:not(:first-child) {
+    margin-right: -10px;
+}
+
+.name-popup {
+    position: absolute;
+    padding: 6px 10px;
+    background: #f26b55;
+    color: #fff;
+    font-size: 12px;
+    display: none;
+    white-space: nowrap;
+    border-radius: 2px;
+    /*left: 15px;*/
+    top: calc(100% + 7px);
+}
+
+.name-popup:before {
+    content: '';
+    border-color: transparent transparent #f26b55 transparent;
+    border-width: 0 6px 6px;
+    border-style: solid;
+    position: absolute;
+    display: block;
+    top: -6px;
+}
+
+.resign-emp .img-wrp--35:hover + .name-popup {
+    display: block;
+}
+
+.select-resign .img-border {
+    border: 2px solid #f26b55;
+}
+
+.sc-emp-list {
+    margin: 10px 0 0;
+    padding: 0;
+    max-height: 170px;
+    height: 170px;
+}
+
+.sc-emp-list li {
+    list-style: none;
+    display: block;
+}
+
+.sc-emp-list li .img-border {
+    border-color: transparent;
+}
+
+.sc-emp-list li:hover .img-border {
+    border-color: #53b7cf;
+}
+
+.sc-emp-list li:hover h5.u-name,
+.sc-emp-list li:hover h5.emp-no {
+    color: #53b7cf;
+}
+
+.sc-emp-list li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.ad-requirement {
+    height: 100px;
+}
+
+/*=============================================
+    Scripts
+=============================================*/
+
+.tab-box .box-head {
+    padding: 0;
+}
+
+.box-body {
+    padding: 0;
+    float: left;
+    width: 100%;
+    background: #49b3cc;
+}
+
+.details {
+    text-transform: capitalize;
+}
+
+.top-title {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.c-row {
+    float: left;
+    width: 100%;
+    background: #49b3cc;
+}
+
+.scr-head {
+    margin-bottom: 5px;
+}
+
+.scr-body:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.scr-body h5.details {
+    padding-top: 5px;
+}
+
+.scr-body input {
+    text-align: right;
+    width: 120px;
+    float: right;
+    font-size: 14px;
+}
+
+.box-body .right {
+    background: #fff;
+    padding: 0 30px 30px 30px;
+}
+
+.on .box-head .left {
+    background: #49b3cc;
+}
+
+h5.name-white {
+    color: #fff;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 10px;
+}

@@ -1,0 +1,175 @@
+.mt-5 {
+    margin-top: 5px;
+}
+
+.ptb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.addForm {
+    display: none;
+}
+
+/*===================================================
+       Search
+====================================================*/
+
+.select-box {
+    background: #939696;
+    color: #fff;
+    height: 35px;
+    width: 100%;
+}
+
+.tr-select {
+    font-size: 24px;
+    height: 35px;
+    width: 100%;
+    color: #434849;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent url("../../images/system/icon/form/20/ic_20_arrow-dark.png") no-repeat calc(100% - 0px) center;
+}
+
+.tr-select:focus {
+    background: transparent url("../../images/system/icon/form/20/ic_20_arrow-dark.png") no-repeat calc(100% - 0px) center;
+}
+
+.st {
+    border-radius: 50%;
+    display: inline-block;
+    height: 6px;
+    vertical-align: middle;
+    width: 6px;
+    margin-right: 4px;
+}
+
+.st.red {
+    background: #f26b55;
+}
+
+.st.green {
+    background: #4fdb9b;
+}
+
+.st.yellow {
+    background: #f9d452;
+}
+
+.status-wrp {
+    float: right;
+}
+
+h6.status {
+    display: inline-block;
+    margin-left: 15px;
+    color: #4e4f4b;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/*=============================================
+    Scripts
+=============================================*/
+
+.tab-box .box-head {
+    padding: 0;
+}
+
+.box-body {
+    padding: 0;
+}
+
+.details {
+    text-transform: capitalize;
+}
+
+.designation {
+    text-transform: uppercase;
+}
+
+.c-row {
+    float: left;
+    width: 100%;
+    background: #49b3cc;
+}
+
+.c-row .left,
+.c-row .right {
+    padding: 15px 30px;
+    background: #fff;
+}
+
+.c-row:first-child .left,
+.c-row:first-child .right {
+    padding: 10px 30px 20px;
+}
+
+.c-row:last-child .left,
+.c-row:last-child .right {
+    padding: 0 30px;
+}
+
+.c-row .left {
+    background: #49b3cc;
+}
+
+.c-row .right {
+    background: #fff;
+}
+
+.inputs {
+    display: none;
+}
+.inputs input[type="text"] {
+    font-size:14px;
+    height: 19px;
+    text-align: right;
+    float: right;
+    width: 100px;
+}
+
+.edit .inputs {
+    display: block;
+}
+.edit .text {
+    display: none;
+}
+
+.box-body .left .details {
+    color: #fff;
+}
+
+.box-body .right .details {
+    text-align: right;
+}
+
+.side {
+    float: right;
+}
+
+.on .designation {
+    color: #fff;
+}
+
+.on .on-right .details {
+    font-size: 12px;
+    color: rgba(78, 79, 75, .56);
+    text-align: right;
+}
+
+.on .on-right .details .side {
+    display: none;
+}
+
+.on .box-head .left {
+    background: #49b3cc;
+}

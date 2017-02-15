@@ -1,0 +1,297 @@
+/*==========================================
+    Spaces
+===========================================*/
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-3 {
+    margin-top: 3px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.plr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/*==========================================
+    Status
+===========================================*/
+.st {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    position: relative;
+}
+
+.st:hover span {
+    display: block;
+}
+
+.st span {
+    position: absolute;
+    top: 12px;
+    left: -4px;
+    display: none;
+    padding: 4px 5px;
+    background: #49B3CC;
+    color: #fff;
+    font-size: 12px;
+    width: 120px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius: 2px;
+    font-style: normal;
+}
+
+.st span:before {
+    content: '';
+    position: absolute;
+    border-width: 0 3px 3px;
+    border-color: transparent transparent #49B3CC transparent;
+    border-style: solid;
+    top: -3px;
+}
+
+.st.red {
+    background: #f26b55;
+}
+
+.st.green {
+    background: #4fdb9b;
+}
+
+.st.yellow {
+    background: #f9d452;
+}
+
+.st.black {
+    background: #434849;
+}
+
+.mCSB_outside + .mCSB_scrollTools {
+    right: 26px !important;
+}
+
+/*==========================================
+    Default
+===========================================*/
+.inner_scroll {
+    max-height: 210px;
+    float: left;
+    width: 100%;
+}
+
+.ic_16,
+.ic_20,
+.ic_26 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ic_16 {
+    width: 16px;
+    height: 16px;
+}
+
+.ic_location {
+    background: url("../../images/system/icon/procesAtd/16/ic_16_location.png") center center;
+}
+
+.ic_20 {
+    width: 20px;
+    height: 20px;
+}
+
+.ic_general {
+    background: url("../../images/system/icon/procesAtd/20/ic_20_genaral.png") center center;
+}
+
+.ic_roster {
+    background: url("../../images/system/icon/procesAtd/20/ic_20_roster.png") center center
+}
+
+.ic_26 {
+    width: 26px;
+    height: 26px;
+}
+
+.ic_fng-in {
+    background: url("../../images/system/icon/procesAtd/26/ic_26_finger_in.png") center center;
+}
+
+.ic_fng-out {
+    background: url("../../images/system/icon/procesAtd/26/ic_26_finger_out.png") center center;
+}
+
+.ic_hly-ot {
+    background: url("../../images/system/icon/procesAtd/26/ic_26_hourly_ot.png") center center;
+}
+
+.details-block h5.u-name,
+.details-block > div,
+.details-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h5.details,
+h5.u-name {
+    color: #4e4f4b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h5.u-name {
+    margin-left: 15px;
+    display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    white-space: nowrap;
+    width: 135px;
+}
+
+.but-gruop-wrp {
+    margin-bottom: 0;
+}
+
+.but-gruop-wrp.ch_bx {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.sm-title {
+    font-size: 10px;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.last-col {
+    padding-left: 0;
+    padding-right: 55px;
+}
+
+.inp-f-14 input[type="text"] {
+    font-size: 14px;
+}
+
+.but-gruop-wrp span {
+    padding-left: 2px;
+}
+
+.but-gruop-wrp.ch-0 span {
+    padding-left: 0;
+}
+
+.status {
+    text-align: right;
+}
+
+.status h5 {
+    display: inline-block;
+    color: #4e4f4b;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.status h5:last-child {
+    margin-right: 0;
+}
+
+.status h5 span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.tip-wrp {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.tip-wrp span.tip {
+    background: #49b3cc;
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    left: calc(100% - 30px);
+    padding: 2px 5px;
+    position: absolute;
+    top: calc(100% + 26px);
+    border-radius: 2px;
+}
+
+.tip-wrp span.tip::before {
+    content: '';
+    position: absolute;
+    border-width: 0 5px 5px;
+    border-color: transparent transparent #49B3CC transparent;
+    border-style: solid;
+    top: -5px;
+}
+
+.tip-wrp .ic_location {
+    position: absolute;
+    right: 13px;
+    top: 3px;
+}
+
+.tip-wrp .ic_location:hover + span.tip {
+    display: block;
+}
+
+/*==========================================
+    Status in proses
+===========================================*/
+.card-content-wrp.st_error .u-name,
+.inner.st_error .dateTime {
+    color: #f26b55;
+}
+
+.inner.st_process .dateTime,
+.card-content-wrp.st_process .u-name {
+    color: #4fdb9b;
+}
+
+/*==========================================
+    Status in Error or wrong
+===========================================*/
+

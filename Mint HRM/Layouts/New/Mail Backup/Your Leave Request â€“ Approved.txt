@@ -1,0 +1,8 @@
+Hi [requester_name],<br>
+Your request to leave from from [leave_start] to [leave_end]. is approved by [approver_name] And [approver_name_second]  leave will be deducted from your entitlement.<br />
+ approver commented: [approver_comment].<br />. 
+ <br>
+[leave_dates]<br>
+
+This is auto generated Email if you need more clarification please contact HR Department.<br>
+Thanks.

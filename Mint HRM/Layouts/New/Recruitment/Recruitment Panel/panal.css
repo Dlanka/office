@@ -1,0 +1,314 @@
+.mt-2 {
+    margin-top: 2px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+/*========================================================
+        Status Colors
+===========================================================*/
+
+.gray {
+    background: #dbdbdb;
+}
+
+.red {
+    background: #f26b55;
+}
+
+.yellow {
+    background: #f9d452;
+}
+
+.green {
+    background: #4fdb9b;
+}
+
+/*========================================================
+       Typography
+===========================================================*/
+.center {
+    text-align: center;
+}
+
+h5.bold {
+    font-weight: 700;
+}
+
+.up-case {
+    text-transform: uppercase;
+}
+
+/*========================================================
+       Panel Css
+===========================================================*/
+
+h6.status {
+    color: #4e4f4b;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+h6.status.right {
+    width: 100%;
+    text-align: right;
+}
+
+.st {
+    border-radius: 50%;
+    display: inline-block;
+    height: 6px;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 6px;
+}
+
+h6.code {
+    margin-top: 2px;
+}
+
+.low-cs {
+    text-transform: capitalize;
+}
+
+/*------------------------------------
+    Icon Status
+------------------------------------*/
+
+.ic_status {
+    float: left;
+    width: 100%;
+}
+
+.ic_status .ic_st,
+.ic_status > span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ic_status > span {
+    color: #4e4f4b;
+    font-size: 14px;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+
+.ic_st {
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ic_st::before {
+    width: 20px;
+    height: 20px;
+    content: '';
+    position: absolute;
+
+}
+
+.ic_st.ic_pending {
+    background: #f26b55;
+}
+
+.ic_st.ic_pending::before {
+    top: 8px;
+    left: 7px;
+    background: url("../../images/system/icon/recruitment/20/ic_20_pending.png");
+}
+
+.ic_st.ic_screen {
+    background: #f9d452;
+}
+
+.ic_st.ic_screen::before {
+    top: 8px;
+    left: 8px;
+    background: url("../../images/system/icon/recruitment/20/ic_20_screen.png");
+}
+
+.table-block {
+    display: table;
+    width: 100%;
+}
+
+.table-block.duration > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cr_duration {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px dashed #168ca8;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.cr_duration span,
+.cr_duration h6 {
+    color: #49b3cc;
+    text-align: center;
+}
+
+.cr_duration span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.cr_duration h6 {
+    font-size: 12px;
+
+}
+
+.cr_duration .right {
+    text-align: right;
+}
+
+/*Status In Red*/
+.red.cr_duration {
+    border: 1px dashed #f26b55;
+    background: transparent;
+}
+
+.red.cr_duration span,
+.red.cr_duration h6 {
+    color: #f26b55;
+}
+
+.note {
+    color: #434849;
+    font-size: 12px;
+}
+
+.rc-accordion {
+    margin-bottom: 20px;
+}
+
+.rc-accordion .ui-box-wrp {
+    padding: 10px 40px 0;
+}
+
+.rc-accordion .ui-link {
+    display: block;
+}
+
+.rc-accordion .count {
+    float: right;
+    text-align: right;
+}
+
+.emp-block:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.ic_30_wrp {
+    margin: 0 auto;
+}
+
+.ic_30 {
+    width: 30px;
+    height: 30px;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #f9d452;
+}
+
+.ic_30::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.ic_screen.green {
+    background: #4fdb9b;
+}
+
+.ic_screen::before {
+    background: url("../../images/system/icon/recruitment/15/ic_15_slider.png");
+}
+
+.scroll-list {
+    float: left;
+    width: 100%;
+    max-height: 200px;
+}
+
+.dot {
+    display: table;
+    width: 10px;
+    height: 10px;
+    background: #4fdb9b;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.dot:hover + .name-popup{
+    display: block;
+}
+
+.border-row {
+    padding: 15px 0;
+    border-bottom: 1px solid #d9dadb;
+}
+
+.name-popup {
+    background: #f26b55;
+    border-radius: 2px;
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    padding: 6px 10px;
+    position: absolute;
+    top: calc(100% + 7px);
+    white-space: nowrap;
+}
+
+.name-popup::before {
+    border-color: transparent transparent #f26b55;
+    border-style: solid;
+    border-width: 0 6px 6px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -6px;
+}
+
+.pnl-popup {
+    right: 30px;
+    background: #4fdb9b;
+}
+.pnl-popup::before {
+    right: 15px;
+    border-color: transparent transparent #4fdb9b;
+}
+
+.du_head {
+    margin-bottom: 2px;
+
+}

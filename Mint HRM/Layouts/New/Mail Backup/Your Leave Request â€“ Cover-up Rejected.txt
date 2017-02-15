@@ -1,0 +1,8 @@
+Hi [approver_name],<br>
+[coverup_name] has rejected your request for the cover-up for [leave_type]. you have applied from [leave_start]  to [leave_end]. <br>You may nominate someone ease and apply again.<br />
+Cover Up commented: [coverup_comment] 
+ <br>
+[leave_dates]<br>
+
+This is auto generated Email if you need more clarification please contact HR Department.<br>
+Thanks.

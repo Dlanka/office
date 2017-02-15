@@ -1,0 +1,64 @@
+    <table cellspcing="0" style="font-family: Arial, Helvetica, sans-serif; background: #DFDFDF;" width="100%" border="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td align="center">
+                            <table cellspcing="0" style="background: #fff; border-collapse: collapse; border-spacing:0;" width="530" border="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table cellspcing="0" width="100%" border="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img src="http://localhost/hrm/uploads/logos/img/logo49.png" />
+                                                </td>
+                                                <td style="color: #8b8b8b; font-size: 12px; font-family: Arial, Helvetica, sans-serif;" align="right">
+                                                    
+                                                <br /></td>
+                                                <td width="3%"><br /></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellspcing="0" style="background: #d12c41; color:#fff;" width="100%" border="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="3">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td width="10%"><br /></td>
+                                                <td style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;" width="80%">[email_subject]</td>
+                                                <td width="10%"><br /></td>
+                                            </tr>
+                                        </tbody>
+                                    </table> 
+                                                                   
+                                </td>
+                            </tr>
+                            <tr>
+<td colspan="3">[email_message_body]</td>
+</tr>
+                            <tr>
+                                <td>
+                                    <table cellspcing="0" style="border-collapse: collapse; border-spacing:0;" width="100%" border="0" cellpadding="0">
+                                        <tbody cellspcing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td align="right" width="97%">
+                                                    <img src="http://localhost/hrm/uploads/logos/img/mint45.png" />
+                                                </td>
+                                                <td width="3%"><br /></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" style="background: #d12c41;" height="10">
+                                                    
+                                                <br /></td>    
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table></td></tr></tbody></table>

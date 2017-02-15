@@ -1,0 +1,253 @@
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.pl-0 {
+    padding-left: 0;
+}
+
+h1.title {
+    color: #49b3cc;
+    line-height: 34px;
+}
+
+.header-with-mn {
+    padding: 20px 30px;
+}
+
+h1.title img {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.addForm {
+    display: none;
+}
+
+/*==============================================================================
+                            Search Area
+==============================================================================*/
+.sc-wrp {
+    margin: 15px 0 30px;
+    box-shadow: none;
+}
+
+.search-wrp {
+    background: #434849;
+    padding: 15px 30px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.search-group {
+    display: block;
+}
+
+.search-group > div input,
+.search-group .btn-search {
+    float: left;
+    height: 35px;
+}
+
+.btn-search:focus {
+    outline: 0;
+    border: none;
+}
+
+/*input[type="text"],*/
+/*input[type="text"]:hover,*/
+/*input[type="text"]:focus,*/
+/*textarea, textarea:focus, textarea:hover {*/
+/*outline: 0;*/
+/*border: none;*/
+/*}*/
+.search-group > div input {
+    width: 95%;
+    border: none;
+    text-indent: 15px;
+    background: #fff;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.search-group .btn-search {
+    width: 4.5%;
+}
+
+.search-group > div,
+.search-group a {
+    width: 92%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-group a {
+    width: auto;
+    padding: 8px 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: top;
+    margin-left: 1%;
+}
+
+.search-group a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-search {
+    background: #f26b55;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: relative;
+}
+
+.btn-search:hover {
+    background: rgba(242, 107, 85, 0.8);
+}
+
+.btn-search::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    background: #000;
+    left: 13px;
+    background: url('../../images/system/icon/button/20/ic_20_magnify.svg');
+}
+
+.exp-wrp {
+    text-align: right;
+}
+
+.exp-wrp .top-exp {
+    display: none;
+    height: 25px;
+    width: 25px;
+    content: "";
+    background-image: url("../../images/system/icon/emp/25/ic_25_arrow-up.png");
+}
+
+.view-box {
+    display: none;
+    background: #434849;
+    margin-top: 15px;
+}
+
+.ad-search {
+    margin-bottom: 30px;
+}
+
+.ad-search label {
+    font-weight: 400;
+    color: rgba(256, 256, 256, 0.56);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ad-search input[type="text"] {
+    width: 100%;
+    background: #fff;
+    text-indent: 15px;
+    border-radius: 2px;
+    height: 35px;
+}
+
+.ad-search select {
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+    height: 35px;
+    text-indent: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url(../../images/system/icon/select/27/ic_27_select.png) no-repeat right center;
+}
+
+div.set_2 select,
+div.set_2 input {
+    float: left;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+div.set_2 select {
+    width: 47%;
+    background: #939696;
+    color: #fff;
+    height: 35px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+div.set_2 input {
+    width: 47%;
+}
+
+h5.u-name {
+    display: inline;
+}
+
+h5.u-name, h5.details {
+    color: #4e4f4b;
+    font-weight: 400;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.card-content-wrp {
+    float: left;
+    width: 100%;
+}
+
+.details-block {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.details-block h4.u-name,
+.details-block > div {
+    color: #4e4f4b;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tab-box .box-head {
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+}
+
+h5.details {
+    color: rgba(78, 79, 75, 1);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+span.cuirle {
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    margin-right: 10px;
+    width: 6px;
+}
+
+.status.pending {
+    background: rgba(249, 212, 82, 1) none repeat scroll 0 0;
+}

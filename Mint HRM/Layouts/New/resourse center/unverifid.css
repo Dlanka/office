@@ -1,0 +1,277 @@
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.plr-30 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.right {
+    float: right;
+}
+
+/*Status*/
+.st_mis,
+.st_mis input[type="text"] {
+    color: #f26b55;
+}
+
+.st_lv,
+.st_lv input[type="text"] {
+    color: #f26b55;
+}
+
+.st_hd,
+.st_hd input[type="text"] {
+    color: #f9d452;
+}
+
+input[type="text"] {
+    outline: none;
+}
+/*============================sas*/
+.left-b, .right-b {
+    padding: 10px 30px;
+}
+
+.img-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.details-block {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+h5 {
+    color: #4e4f4b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.in-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.uv_check .check-box {
+    margin-top: 0;
+}
+
+.uv_check span,
+.inout_check span {
+    color: rgba(78, 79, 75, 0.56);
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.body-ch-text {
+    color: #4e4f4b;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.details-block h4.u-name, .details-block > div {
+    color: #4e4f4b;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h5.u-name {
+    display: inline;
+}
+
+.tab-box .box-head {
+    padding: 10px 30px;
+}
+
+.box-body {
+    padding: 0 30px 30px;
+}
+
+.text {
+    color: #4e4f4b;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-block {
+    color: #4e4f4b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.line-block .title {
+    display: inline-block;
+}
+
+.location {
+    position: relative;
+}
+
+.location .in_mobile {
+    background: url("../../images_new/ic_16_location.png") repeat 0 0;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 8px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    z-index: 9;
+}
+
+.location .in_mobile:hover .place {
+    display: block;
+}
+
+.place {
+    background: #49b3cc;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    left: 30px;
+    line-height: 12px;
+    min-width: 260px;
+    padding: 10px;
+    position: absolute;
+    top: -10px;
+    z-index: 99;
+    display: none;
+}
+
+.place::before {
+    border-bottom: 6px solid transparent;
+    border-right: 10px solid #49b3cc;
+    border-top: 6px solid transparent;
+    content: "";
+    left: -9px;
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+}
+
+.row-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.date-pick, .time-pick {
+    font-size: 14px;
+    font-width: 400;
+}
+
+button.img-reject {
+    margin-top: 5px;
+}
+
+.date-text {
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding-left: 17px;
+}
+
+/*Status*/
+
+.st_lv,
+.st_hd {
+    position: relative;
+}
+
+.st_lv:after,
+.st_hd:after {
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+/*leave circle*/
+.st_lv:after {
+    background: rgb(242, 107, 85);
+}
+
+/*holiday circle*/
+.st_hd:after {
+    background: #f9d452;
+}
+
+/*Input status*/
+/*missing*/
+.st_red input[type="text"]:not(.reason) {
+    color: rgb(242, 107, 85);
+}
+
+.st_yellow input[type="text"] {
+    color: #f9d452;
+}
+
+.st {
+    padding: 10px;
+    display: block;
+    float: right;
+}
+
+.st_leave {
+    background: url(../../images_new/icon/status/ic_20_st_leave.svg) no-repeat;
+}
+
+.st_check {
+    background: url(../../images_new/icon/status/ic_20_st_check.svg) no-repeat;
+}
+.reject_wrp {
+    float: left;
+    margin-top: 15px;
+    padding: 0 60px;
+    display: none;
+}
+
+.reject_reason,
+.img_block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reject_reason {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-left: 13px;
+}

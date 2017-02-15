@@ -1,0 +1,9 @@
+Hi [approver_name],<br>
+[requester_name] has applied leave [leave_type]. [he_she]' needs to obtain from below days.Please click below to agree or reject [his_her] request.<br />. 
+ <br>
+[leave_dates]<br>
+<br>
+ <a href="[approver_accept_url]" style="color: #fff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Accept</a><br>
+ <a href="[approver_reject_url]" style="color: #fff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Reject</a><br>
+This is auto generated Email if you need more clarification please contact HR Department.<br>
+Thanks.

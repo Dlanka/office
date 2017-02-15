@@ -1,0 +1,7 @@
+Hi [requester_name],<br>
+[coverup_name] has accepted your request for Cover-up for the leave applied from [leave_start]  to [leave_end]. Your request has been submitted to [approver_name] for approval.<br />. 
+ <br>
+[leave_dates]<br>
+
+This is auto generated Email if you need more clarification please contact HR Department.<br>
+Thanks.
