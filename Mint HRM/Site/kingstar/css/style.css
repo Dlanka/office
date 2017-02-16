@@ -1,0 +1,503 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+} 
+img, fieldset{
+    border:0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+body, h1, h2, h3, h4, h5, h6, p{ 
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+} 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p, label, input, button, a, address,textArea{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #666666;
+    outline: none;
+    background: transparent;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.block {
+    padding: 81px 0 80px; 
+    background: #fff;
+}
+.block h1 ,.block h2 ,.block h3 ,.block p {
+    color: #666666;
+    text-align: center;
+}
+.block h1 {
+    font-size: 40px;
+    color: #212121;
+    text-transform: initial;
+    font-weight: 300;
+}
+.block .read-more {
+    color: #2b439b;
+    text-align: center;
+    display: block;
+}
+/*-------------commen area --------------------------------------------*/
+
+
+/*-------------header area --------------------------------------------*/
+
+header{
+    overflow: hidden;
+    position:relative;
+}
+.logo{
+    padding: 4px 0 5px 15px;
+}
+.nav > li > a{
+    color: #2b439b;
+    float: left;
+    /*padding: 6px 15px;*/
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom:  4px solid transparent;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    -ms-transition: color 2s ease;
+    transition: color 1s ease;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background: transparent;
+    border: none;
+    color: #c0a400;
+    border-bottom:  4px solid #c0a400;
+}
+.nav{
+    display: inline-block;
+    margin-top: 25px;	
+}
+.nav > li {
+    float: left;
+}
+.navbar-default{
+    background: transparent;
+    border: none;
+    float: right;
+}
+.nav > li > a.active {
+    color: #c0a400;
+    border-bottom:  4px solid #c0a400;
+}
+.navbar-collapse {
+    margin-bottom: -5px;
+}
+
+/*-------------banner area --------------------------------------------*/
+
+.banner-area {
+    width: 100%;
+}
+.banner {
+    width: 100%;
+    min-height:588px;
+    height: auto;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+.banner-text {
+    margin-top: 22.5%;
+}
+.banner-text h1, p {
+    color: #fff;
+    font-weight: normal;
+    text-transform: initial;
+    text-align: center;
+}
+.banner-text h1 {
+    font-size: 55px;
+    padding: 0;
+    margin-bottom: 6px;
+    font-weight: 500; 
+}
+.banner-text p {
+    font-size: 28px;
+}
+/*-------------middel area --------------------------------------------*/
+
+.what-we-do > h1 ,h2 , h3{
+    color: #212121;
+    text-transform: initial;
+    font-weight: 300;
+}
+.what-we-do h1, .what-we-do  h2 , .what-we-do  h3{
+    color: #212121;
+    text-transform: initial;
+    font-size: 40px;
+    font-weight: 300;
+}
+.what-we-do > p {
+    color: #666666;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/*-------------gallery area --------------------------------------------*/
+
+.gallery-area {
+    width: 100%;
+    min-height: 529px;
+    background: #000;
+}
+.gallery-content {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-content::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    min-height:  529px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.indicator {
+    text-align: left;
+    margin-left: -41%;
+}
+.gallery-1{
+    min-height: 529px;
+    background-image: url('../images/gallery/img-1.jpg') ;
+}
+.gallery-2{
+    min-height: 529px;
+    background-image: url('../images/banner.jpg');
+}
+.gallery-details {
+    margin-top: 118px;
+}
+.gallery-details h1, h2 ,p ,a{
+    font-weight: 300;
+    color: #fff;
+    text-transform: initial;
+}
+.gallery-details h1 {
+    font-size: 40px;
+    text-align: left;
+}
+.gallery-details p {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom:35px;
+}
+.gallery-details a {
+    font-size: 18px;
+    position: relative;
+    padding:0 0 10px 8px;
+    text-decoration: none;
+    color: #fff;
+}
+.arrow-right {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-left: -4px;
+    margin-top: 4px;
+    background-image: url('../images/arrow-right.svg');
+}
+.gallery-details a:hover {
+    opacity: 0.5;
+}
+
+.inner-banner {
+    width: 100%;
+    padding: 0;
+}
+.banner-image {
+    background-size: cover;
+    height: 400px;
+}
+.banner-about {
+    background:rgba(0, 0, 0, 0) url('../images/banner.jpg') repeat scroll center center / cover;
+}
+/*-------------footer area --------------------------------------------*/
+
+.footer-area {
+    width: 100%;
+    position: relative;
+    min-height: 112px;
+    background: #151818;
+}
+.copy-right {
+    box-sizing: content-box;
+}
+.copy-right {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 58px;
+    color: #8e8e8e;
+    margin-left: 0;
+}
+.social-network {
+    display: table;
+    float: right;
+    margin-top: 40px;
+}
+.social-network p{
+    color: #fff;
+    float: left;
+    opacity: 0.6;
+    line-height: 52px;
+    text-align: right;
+}
+.social-icons {
+    float: left;
+}
+.stay-in {
+    text-align: left;
+}
+.social-icon {
+    width: 48px;
+    float: left;
+    height: 48px;
+    margin-left: 17px;
+}
+.icon-facebook {
+    background-image: url('../images/social icon/facebook.svg');
+}
+.icon-in {
+    background-image: url('../images/social icon/in.svg');
+}
+.icon-twitter {
+    background-image: url('../images/social icon/twitter.svg');
+}
+
+/*map content ------------------------*/
+.map_content {
+    width: 100%;
+}
+.map_content > #mapContainer {
+    height: 400px;
+}
+
+
+/*Contact Us ------------------------------*/
+
+.contact-info {
+    display: table;
+    margin: 0 auto;
+}
+.contact-details {
+    display: inline-block;
+}
+.contact-details p, a, address {
+    color: #666666;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+}
+.address ,a.mail ,p.call {
+    padding: 0 27px 0 32px;
+    position: relative;
+}
+p.call{
+    padding: 0 0 0 32px;
+}
+.address::before ,a.mail::before ,p.call::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: -2px;
+    width: 25px;
+    height: 25px;
+    /*    background: #000;*/
+}
+.address::before {
+    background-image: url('../images/contact_icon/address.svg');
+}
+a.mail::before {
+    background-image: url('../images/contact_icon/mail.svg');
+}
+p.call::before {
+    background-image: url('../images/contact_icon/call.svg');
+}
+.contact-details .contact-icons {
+    display: table;
+    width: 30px;
+    height: 30px;
+    background: #000;
+}
+.contact-form {
+    margin: 30px auto;
+    overflow: hidden;
+    width: 92%;
+}
+.contact-form input,textArea,input[type="submit"],input[type="reset"]{
+    transition: all 0.5s ease-in-out ;
+    -webkit-transition: all 0.5s ease-in-out ;
+    -o-transition: all 0.5s ease-in-out ;
+    -moz-transition: all 0.5s ease-in-out ;
+    -ms-transition: all 0.5s ease-in-out ;
+}
+.contact-form input,textArea{
+    outline: 0;
+    border: 1px solid #D8CECE;
+    width: 100%;
+    padding: 6px 0 5px 10px;
+    margin: 0px 0 6px;
+    font-weight: 300;
+}
+.contact-form input:hover,textArea:hover,.contact-form input:focus,textArea:focus {
+    border: 1px solid #666666;
+}
+.contact-form textArea {
+    margin: 10px 0 16px;
+    height: 120px;
+}
+.contact-form .button-block {
+    display: table;
+    margin: 0 auto;
+}
+.contact-form input[type="submit"],.contact-form input[type="reset"] {
+    width: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0;
+    border: 1px solid transparent;
+}
+.contact-form input[type="submit"] {
+    background: #2b439b;
+    color: #fff;
+    margin-left: 8px;
+}
+.contact-form input[type="reset"] {
+    background: #A0A09C;
+    color: #fff;
+}
+.contact-form input[type="submit"]:hover,.contact-form input[type="reset"]:hover {
+    opacity: 0.8;
+}
+/*.contact {
+    width: 100%;
+    height: auto;
+}
+.map {
+    width: 100%;
+    background: #000;
+    height: 500px;
+}
+.contact-us {
+    width: 100%;
+    height: 500px;
+}
+.contact-info {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 10%;
+    background: #2b439b;
+}*/
+
+
+/*Responsive css area --------------------------*/
+@media (max-width:480px){
+
+    /*middle area ----------------------*/
+    .contact-info {
+        padding: 13px;
+    }
+    .contact-details p,  .contact-details a,  .contact-details address {
+        margin: 8px 0;
+    }
+    .contact-form textArea {
+        margin: 0;
+    }
+    /*footer area -----------------------*/
+
+    .copy-right {
+        padding: 58px 0 0;
+    }
+    .social-network {
+        float: left;
+    }
+
+}
+@media (max-width:767px){
+
+    /*middle area ----------------------*/
+    .contact-info {
+        padding: 13px;
+    }
+    .contact-details p,  .contact-details a,  .contact-details address {
+        margin: 8px 0;
+    }
+    .contact-form textArea {
+        margin: 0;
+    }
+    /*footer area -----------------------*/
+
+    .copy-right {
+        padding: 58px 0 0;
+    }
+    .social-network {
+        float: left;
+    }
+}
+
+@media (min-width:768px) and (max-width:980px){
+
+    /*middle area ----------------------*/
+    .contact-info {
+        padding: 13px;
+    }
+    .contact-details p,  .contact-details a,  .contact-details address {
+        margin: 8px 0
+    }
+    .contact-form textArea {
+        margin: 0;
+    }
+    /*footer area -----------------------*/
+
+    .copy-right {
+        padding: 58px 0 0;
+    }
+    .social-network {
+        float: left;
+    }
+}
+
+@media (max-width:1200px){}
+
+
+
+

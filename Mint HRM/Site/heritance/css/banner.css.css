@@ -1,0 +1,11 @@
+/* 
+    Document   : banner.css
+    Created on : Aug 19, 2015, 4:11:07 PM
+    Author     : DLanka
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }

@@ -1,0 +1,97 @@
+/*Input and select*/
+ .ui-form .row {
+    margin-bottom: 30px !important;
+}
+ .ui-form  .input-layout {
+    height: 50px;
+    position: relative;
+}
+ .ui-form  input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(78,79,75,0.2);
+    font-size: 16px;
+    color: rgba(78, 79, 75, 0.86);
+    background: none;
+    z-index: 99;
+    box-shadow: none;
+    position: relative;
+    /*    transition : border-color 200ms ease-out;
+        -moz-transition : border-color 200ms ease-out;*/
+    transition: transform 250ms ease-in-out;
+    transform: scaleX(1);
+    /*    -moz-transition: all 200ms linear;
+        -webkit-transition: all 200ms linear;
+        -ms-transition: all 200ms linear;
+        -o-transition: all 200ms linear;*/
+}
+ .ui-form  input[type="text"]:focus,select {
+    border-color: #49B3CC !important;
+    outline: none !important;;
+    box-shadow: none !important;
+}
+
+
+.ui-form .input-layout {
+    position: relative;
+    height: 50px;
+}
+ .ui-form  label {
+    font-size: 16px;
+    position: absolute;
+    z-index: 9;
+    top: -2px;
+    color: rgba(78, 79, 75, 0.86);
+    font-weight: 400;
+    transition: all 200ms;
+    -moz-transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    left: 0;
+    width: 100%;
+}
+ .ui-form  .radio-grp label,
+ .ui-form  .radio-grp input {
+    position: relative;
+    display: inline-block;
+    width: 76%;
+    vertical-align: middle;
+}
+ .ui-form  .radio-grp input {
+
+}
+ .ui-form  label.focusLbl {
+    top: -20px;
+    font-size: 12px;
+    color: rgba(78, 79, 75, 0.56);    
+}
+ .ui-form  .input-layout > input[type="text"]:focus + label {
+    color: #49B3CC;
+}
+ .ui-form  select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(78,79,75,0.2);
+    font-size: 16px;
+    color: rgba(78, 79, 75, 0.86);
+    position: relative;
+    z-index: 99;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../images/icon/select-default.png)no-repeat right center;
+}
+.ui-form   select:focus {
+    background: url(../images/icon/select-active.png)no-repeat right center;
+    border-color: #49B3CC;
+    outline: none;
+}
+ .ui-form  .input-layout > select:focus + label {
+    color: #49B3CC;
+}
+ .ui-form  .input-layout > select > option:first-child {
+    /*    visibility: hidden;*/
+    display: none;
+}

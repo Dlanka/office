@@ -1,0 +1,18 @@
+
+h2{
+    margin-top: 0;   
+}
+
+.login-block {
+    margin: 40% auto;
+}
+.wrapper-bd {
+    padding: 50px 0;
+    overflow: hidden;       
+    background: #F9F6F6;  
+}
+.right-bar {
+    background: #fff none repeat scroll 0 0;
+    min-height: 555px;
+    padding-bottom: 10px;
+}

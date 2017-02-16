@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Kingstar Global</title>
+        <!--fonts link-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,300,500' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- kingstar Global css -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <!--header-->
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo.svg" alt="Logo"/></a>
+            <nav class="nav navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav">
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="index.html#what-we-do">What we do</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="block inner-banner">
+            <div class="banner-image banner-about"></div>
+        </section>
+        <!--about Us--> 
+        <section class="block">
+            <div class="container">
+                <div class="col-lg-12">
+                    <h1>About Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer class="footer-area">
+            <div class="container">
+
+                <div class="col-xs-12 col-md-6">
+                    <p class="copy-right">&COPY; 2015 Kingstarglobal - All Rights Reserved - Solution By Infoseek</p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="social-network">
+                        <p>Stay In Touch</p>
+                        <div class="social-icons">
+                            <span class="social-icon icon-facebook"></span>
+                            <span class="social-icon icon-in"></span>
+                            <span class="social-icon icon-twitter"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!--map javascript file-->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            var myCenter = new google.maps.LatLng(6.919851, 79.859015);
+
+            function initialize()
+            {
+                var mapProp = {
+                    center: myCenter,
+                    zoom: 17,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+
+                var map = new google.maps.Map(document.getElementById("mapContainer"), mapProp);
+
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                });
+
+                marker.setMap(map);
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </body>
+</html>
