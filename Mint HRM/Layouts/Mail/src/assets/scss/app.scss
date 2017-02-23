@@ -1,0 +1,93 @@
+@import 'settings';
+@import 'foundation-emails';
+
+
+.per-header-wrp {
+  background-color: #fff;
+}
+
+.header-wrp {
+  background-color: #49b3cc;
+  .inner-set {
+    background: #49b3cc;
+    
+    .title {
+      text-transform: uppercase;
+      color: #fff;
+      font-width:700;
+      margin-bottom: 0;
+      line-height:20px;
+    }
+  }
+}
+
+.main-body {
+  background-color: #fff;
+}
+.button {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.line {
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 1px solid #dddddd;
+}
+.u-name {
+  color: #4e4f4b;
+}
+p {
+  color: #666666;
+  font-size: 14px;
+}
+h6 {
+  color: #666666;
+}
+.bolds {
+  font-weight: 600;
+}
+.col-2 {
+  width: 100px;
+  display: inline-block;
+}
+.col-8 {
+  width: 200px;
+  display: inline-block;
+}
+.tb-head {
+  background-color: #6ecce0;
+  padding: 10px;
+}
+.h-text {
+  padding: 5px 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.b-text {
+  padding: 5px 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #434849;
+}
+.b-row {
+  margin-bottom: 5px;
+}
+.f-row {
+  border-top: 1px solid #434849;
+  border-bottom: 1px solid #434849;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+
+  p {
+    padding: 5px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #434849;
+    font-weight: bold;
+  }
+}
