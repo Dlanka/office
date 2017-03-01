@@ -28,6 +28,7 @@
 <!--Main Content-->
 <wrapper class="main-body">
     <container>
+
         <row>
             <columns>
                 <spacer size="30"></spacer>
@@ -35,16 +36,20 @@
         </row>
 
         <!--Content open-->
+
+        <!--Open Top Content-->
         <row>
             <columns>
                 <h5 class="u-name">Hi [coverup_name],</h5>
-                <p>[requester_name] has nominated you as the cover-up
-                    for the [leave_type]. [he_she]' needs to obtain
-                    from below days.Please click below to agree or
-                    reject [his_her] request.</p>
+                <p>[requester_name]'s request for leave from [leave_start] to [leave_end] has been approved by
+                    [approver_name] and as agreed . You are expected to cover-up his/her duties during this period.</p>
+                <p>Approver commented: [approver_comment] </p>
                 <p>Leave Date [leave_dates]</p>
             </columns>
         </row>
+        <!--Close Top Content-->
+
+        <!--Open Controller contents-->
 
         <row>
             <columns>
@@ -73,43 +78,9 @@
 
         </row>
 
-        <row>
-            <columns large="6">
-                <table class="button large success small-expanded" align="right">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <table>
-                                <tbody>
-                                <tr>
-                                    <td><a href="[coverup_accept_url]">Approve</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-                <table class="button large warning small-expanded" align="right" style="margin-right: 15px">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <table>
-                                <tbody>
-                                <tr>
-                                    <td class="btn-reject"><a href="[coverup_reject_url]">Reject</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-                <spacer size="15"></spacer>
-            </columns>
+        <!--Close Controller contents-->
 
-        </row>
-
+        <!--Footer-->
         <row>
             <columns>
                 <p>This is auto generated Email if you need more clarification please contact HR Department.</p>
