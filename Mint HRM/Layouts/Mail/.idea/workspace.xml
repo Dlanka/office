@@ -21,304 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewDataProfileApproval.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewDataProfileApproval.php">
+      <file leaf-file-name="button.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/button.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
-              <folding>
-                <element signature="e#137#835#0#PHP" expanded="false" />
-                <element signature="n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
-                <element signature="e#846#1529#0#PHP" expanded="false" />
-                <element signature="n#div#1;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#!!top" expanded="false" />
-                <element signature="e#1540#2196#0#PHP" expanded="false" />
-                <element signature="n#div#2;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#2;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#2;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#2;n#!!top" expanded="false" />
-                <element signature="e#2207#2889#0#PHP" expanded="false" />
-                <element signature="n#div#3;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#3;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#3;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#3;n#!!top" expanded="false" />
-                <element signature="e#2900#3610#0#PHP" expanded="false" />
-                <element signature="n#div#4;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#4;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#4;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#4;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#4;n#!!top" expanded="false" />
-                <element signature="e#3621#4311#0#PHP" expanded="false" />
-                <element signature="n#div#5;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#5;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#5;n#!!top" expanded="false" />
-                <element signature="e#4322#5060#0#PHP" expanded="false" />
-                <element signature="n#div#6;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#6;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#6;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#6;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#6;n#!!top" expanded="false" />
-                <element signature="e#5071#5783#0#PHP" expanded="false" />
-                <element signature="n#div#7;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#7;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#7;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#7;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#7;n#!!top" expanded="false" />
-                <element signature="e#5794#6476#0#PHP" expanded="false" />
-                <element signature="n#div#8;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#8;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#8;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#8;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#8;n#!!top" expanded="false" />
-                <element signature="e#6487#7140#0#PHP" expanded="false" />
-                <element signature="n#div#9;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#9;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#9;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#9;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#9;n#!!top" expanded="false" />
-                <element signature="e#7151#7832#0#PHP" expanded="false" />
-                <element signature="n#div#10;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#10;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#10;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#10;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#10;n#!!top" expanded="false" />
-                <element signature="e#7833#8758#0#PHP" expanded="false" />
-                <element signature="n#div#11;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#11;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#11;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#11;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#11;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#11;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#11;n#!!top" expanded="false" />
-                <element signature="e#8793#9568#0#PHP" expanded="false" />
-                <element signature="n#div#12;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#12;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#12;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#12;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#12;n#!!top" expanded="false" />
-                <element signature="e#9579#10350#0#PHP" expanded="false" />
-                <element signature="n#div#13;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#13;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#13;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#13;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#13;n#!!top" expanded="false" />
-                <element signature="e#10362#11107#0#PHP" expanded="false" />
-                <element signature="n#div#14;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#14;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#14;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#14;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#14;n#!!top" expanded="false" />
-                <element signature="e#11119#11884#0#PHP" expanded="false" />
-                <element signature="n#div#15;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#15;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#15;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#15;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#15;n#!!top" expanded="false" />
-                <element signature="e#11895#12636#0#PHP" expanded="false" />
-                <element signature="n#div#16;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#16;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#16;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#16;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#16;n#!!top" expanded="false" />
-                <element signature="e#12647#13388#0#PHP" expanded="false" />
-                <element signature="n#div#17;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#17;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#17;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#17;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#17;n#!!top" expanded="false" />
-                <element signature="e#13398#14188#0#PHP" expanded="false" />
-                <element signature="n#div#18;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#18;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#18;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#18;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#18;n#!!top" expanded="false" />
-                <element signature="e#14198#14962#0#PHP" expanded="false" />
-                <element signature="n#div#19;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#19;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#19;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#19;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#19;n#!!top" expanded="false" />
-                <element signature="e#14973#15919#0#PHP" expanded="false" />
-                <element signature="n#div#20;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#20;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#20;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#20;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#20;n#!!top" expanded="false" />
-                <element signature="e#15930#16693#0#PHP" expanded="false" />
-                <element signature="n#div#21;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#21;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#21;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#21;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#21;n#!!top" expanded="false" />
-                <element signature="e#16704#17495#0#PHP" expanded="false" />
-                <element signature="n#div#22;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#22;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#22;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#22;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#22;n#!!top" expanded="false" />
-                <element signature="e#17552#18343#0#PHP" expanded="false" />
-                <element signature="n#div#23;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#23;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#23;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#23;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#23;n#!!top" expanded="false" />
-                <element signature="e#18354#19143#0#PHP" expanded="false" />
-                <element signature="n#div#24;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#24;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#24;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#24;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#24;n#!!top" expanded="false" />
-                <element signature="e#19154#19962#0#PHP" expanded="false" />
-                <element signature="n#div#25;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#25;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#25;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#25;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#25;n#!!top" expanded="false" />
-                <element signature="e#19973#20778#0#PHP" expanded="false" />
-                <element signature="n#div#26;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#26;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#26;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#26;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#26;n#!!top" expanded="false" />
-                <element signature="e#20789#21561#0#PHP" expanded="false" />
-                <element signature="n#div#27;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#27;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#27;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#27;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#27;n#!!top" expanded="false" />
-                <element signature="e#21572#22368#0#PHP" expanded="false" />
-                <element signature="n#div#28;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#28;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#28;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#28;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#28;n#!!top" expanded="false" />
-                <element signature="e#22379#23203#0#PHP" expanded="false" />
-                <element signature="n#div#29;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#29;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#29;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#29;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#29;n#!!top" expanded="false" />
-                <element signature="e#23262#23965#0#PHP" expanded="false" />
-                <element signature="n#div#30;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#30;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#30;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#30;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#30;n#!!top" expanded="false" />
-                <element signature="e#23976#24717#0#PHP" expanded="false" />
-                <element signature="n#div#31;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#31;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#31;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#31;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#31;n#!!top" expanded="false" />
-                <element signature="e#24728#25491#0#PHP" expanded="false" />
-                <element signature="n#div#32;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#32;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#32;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#32;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#32;n#!!top" expanded="false" />
-                <element signature="e#25502#26294#0#PHP" expanded="false" />
-                <element signature="n#div#33;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#33;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#33;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#33;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#33;n#!!top" expanded="false" />
-                <element signature="e#26305#27037#0#PHP" expanded="false" />
-                <element signature="n#div#34;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#34;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#34;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#34;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#34;n#!!top" expanded="false" />
-                <element signature="e#27048#27792#0#PHP" expanded="false" />
-                <element signature="n#div#35;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#35;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#35;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#35;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#35;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#!!top" expanded="false" />
-                <element signature="e#27915#27957#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requests.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/requests.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state relative-caret-position="200">
+              <caret line="457" column="18" selection-start-line="457" selection-start-column="18" selection-end-line="457" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.css">
+      <file leaf-file-name="viewEmpList.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewEmpList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="854" column="30" selection-start-line="854" selection-start-column="30" selection-end-line="854" selection-end-column="30" />
+            <state relative-caret-position="660">
+              <caret line="108" column="69" selection-start-line="108" selection-start-column="64" selection-end-line="108" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/menu.php">
+      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewNotification.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewNotification.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="1252" column="74" selection-start-line="1252" selection-start-column="65" selection-end-line="1252" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resignationPopup.php" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/resignationPopup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="76" column="95" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="95" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainmenu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/mainmenu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profileApproval.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/profileApproval.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="560">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -341,36 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/maternity-leave.html" />
-        <option value="$PROJECT_DIR$/src/pages/index.html" />
-        <option value="$PROJECT_DIR$/src/pages/shift.html" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/assets/scss/app.scss" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/MailTemplate.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewData.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/DailyattendanceController.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewMissingAttEmpList.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewMissingAttendanceData.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/password_strength.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/leave.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/leaveData.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/emp-edit.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/forget_password.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/login.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/button.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/interview.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/Recruitment2Controller.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/leaveData.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/calender.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/leaveCalender.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewSelfAttendanceDetailData.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/selfAttendance.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/loadCalender.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 3.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 4.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataInsallment.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/shortLeavetimeCategory.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/inedx.php" />
@@ -381,17 +78,47 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 7.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataDesignations.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 5.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataVariableDeduction.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataVariableAddition.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ViewHolidayTypes.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataPayrollSettings.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataAttendancePolicies.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/requests.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewNotification.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/resignationPopup.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/datepicker.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/button.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/leaveCalender.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/calender.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataVariableDeduction.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewLeaveCalendar.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/passWordChange.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/leaveCalender.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/calender.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewProcessAttendanceData.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewEmployeeAttendanceData.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.orgchart.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewHierarchyData.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index_desing.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/addLayerBox.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewHierarchyData 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/password_strength.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/login.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/passwordChange.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/passWordChange.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/emp-details.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewData.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/leave.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/permissionDenied.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/transactionMassage.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/interview.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/button.css" />
       </list>
     </option>
   </component>
@@ -408,7 +135,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -422,7 +149,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -435,11 +162,25 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../WEB/R&amp;D/Dashboard" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -962,35 +703,39 @@
       <workItem from="1489720980152" duration="18118000" />
       <workItem from="1489753964038" duration="1110000" />
       <workItem from="1489980547594" duration="22661000" />
-      <workItem from="1490066810287" duration="5345000" />
+      <workItem from="1490066810287" duration="12864000" />
+      <workItem from="1490152539084" duration="19652000" />
+      <workItem from="1490238980237" duration="19831000" />
+      <workItem from="1490326764644" duration="21494000" />
+      <workItem from="1490585934535" duration="3526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="556769000" />
+    <option name="totallyTimeSpent" value="628791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24713585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207262" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24580152" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1063,389 +808,75 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/forget_password.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/mainmenu.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/profileApproval.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/lifecycleSuperiorEvaluationFrom.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewNotification.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/resignationPopup.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/calendar.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/datepicker.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/button.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/leaveCalender.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/calender.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataVariableDeduction.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewLeaveCalendar.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/passWordChange.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/leaveCalender.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/calender.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewProcessAttendance.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewEmployeeAttendanceData.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/jquery.orgchart.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewProcessAttendanceData.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDirectReports.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewHierarchyData.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewLayerEmployees.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewHierarchyDetails.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/designations.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/addLayerBox.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewHierarchyData 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/HierarchyController.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index_desing.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/login.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/form.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/login.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/button.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/interview.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/password_strength.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/passwordChange.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/passWordChange-old.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/emp-details.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/passWordChange.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/permissionDenied.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewData.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/transactionMassage.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/leave.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/interview.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/leaveData.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/calender.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/leaveCalender.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/attendanceLoadData.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewData.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewData 2.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/DailyattendanceController.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewSelfAttendanceDetail.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewSelfAttendanceDetailData.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/selfAttendance.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/common.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/loadCalender.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/Recruitment2Controller.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 3.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 4.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataInsallment.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index2.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/shortLeavetimeCategory.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/inedx.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index_desing.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 6.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewAssignRoleNonEmp.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewAssignRoleDataNon.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 7.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataDesignations.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewAssignRoleData.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 5.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataVariableAddition.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3160">
-          <caret line="158" column="40" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="40" />
+        <state relative-caret-position="560">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ViewHolidayTypes.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/button.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        <state relative-caret-position="200">
+          <caret line="457" column="18" selection-start-line="457" selection-start-column="18" selection-end-line="457" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.css">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewEmpList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22580">
-          <caret line="1129" column="19" selection-start-line="1129" selection-start-column="19" selection-end-line="1129" selection-end-column="32" />
+        <state relative-caret-position="660">
+          <caret line="108" column="69" selection-start-line="108" selection-start-column="64" selection-end-line="108" selection-end-column="69" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21640">
-          <caret line="1152" column="45" selection-start-line="1152" selection-start-column="37" selection-end-line="1152" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataPayrollSettings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataAttendancePolicies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/viewDataVariableDeduction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewDataProfileApproval.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
-          <folding>
-            <element signature="e#137#835#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#846#1529#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#!!top" expanded="false" />
-            <element signature="e#1540#2196#0#PHP" expanded="false" />
-            <element signature="n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#2207#2889#0#PHP" expanded="false" />
-            <element signature="n#div#3;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#3;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#3;n#!!top" expanded="false" />
-            <element signature="e#2900#3610#0#PHP" expanded="false" />
-            <element signature="n#div#4;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#4;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#4;n#!!top" expanded="false" />
-            <element signature="e#3621#4311#0#PHP" expanded="false" />
-            <element signature="n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#5;n#!!top" expanded="false" />
-            <element signature="e#4322#5060#0#PHP" expanded="false" />
-            <element signature="n#div#6;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#6;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#6;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#6;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#6;n#!!top" expanded="false" />
-            <element signature="e#5071#5783#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#7;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#7;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#7;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#7;n#!!top" expanded="false" />
-            <element signature="e#5794#6476#0#PHP" expanded="false" />
-            <element signature="n#div#8;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#8;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#8;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#8;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#8;n#!!top" expanded="false" />
-            <element signature="e#6487#7140#0#PHP" expanded="false" />
-            <element signature="n#div#9;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#9;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#9;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#9;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#9;n#!!top" expanded="false" />
-            <element signature="e#7151#7832#0#PHP" expanded="false" />
-            <element signature="n#div#10;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#10;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#10;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#10;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#10;n#!!top" expanded="false" />
-            <element signature="e#7833#8758#0#PHP" expanded="false" />
-            <element signature="n#div#11;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#11;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#11;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#11;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#11;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#11;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#11;n#!!top" expanded="false" />
-            <element signature="e#8793#9568#0#PHP" expanded="false" />
-            <element signature="n#div#12;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#12;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#12;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#12;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#12;n#!!top" expanded="false" />
-            <element signature="e#9579#10350#0#PHP" expanded="false" />
-            <element signature="n#div#13;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#13;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#13;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#13;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#13;n#!!top" expanded="false" />
-            <element signature="e#10362#11107#0#PHP" expanded="false" />
-            <element signature="n#div#14;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#14;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#14;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#14;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#14;n#!!top" expanded="false" />
-            <element signature="e#11119#11884#0#PHP" expanded="false" />
-            <element signature="n#div#15;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#15;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#15;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#15;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#15;n#!!top" expanded="false" />
-            <element signature="e#11895#12636#0#PHP" expanded="false" />
-            <element signature="n#div#16;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#16;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#16;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#16;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#16;n#!!top" expanded="false" />
-            <element signature="e#12647#13388#0#PHP" expanded="false" />
-            <element signature="n#div#17;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#17;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#17;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#17;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#17;n#!!top" expanded="false" />
-            <element signature="e#13398#14188#0#PHP" expanded="false" />
-            <element signature="n#div#18;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#18;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#18;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#18;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#18;n#!!top" expanded="false" />
-            <element signature="e#14198#14962#0#PHP" expanded="false" />
-            <element signature="n#div#19;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#19;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#19;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#19;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#19;n#!!top" expanded="false" />
-            <element signature="e#14973#15919#0#PHP" expanded="false" />
-            <element signature="n#div#20;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#20;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#20;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#20;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#20;n#!!top" expanded="false" />
-            <element signature="e#15930#16693#0#PHP" expanded="false" />
-            <element signature="n#div#21;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#21;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#21;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#21;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#21;n#!!top" expanded="false" />
-            <element signature="e#16704#17495#0#PHP" expanded="false" />
-            <element signature="n#div#22;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#22;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#22;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#22;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#22;n#!!top" expanded="false" />
-            <element signature="e#17552#18343#0#PHP" expanded="false" />
-            <element signature="n#div#23;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#23;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#23;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#23;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#23;n#!!top" expanded="false" />
-            <element signature="e#18354#19143#0#PHP" expanded="false" />
-            <element signature="n#div#24;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#24;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#24;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#24;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#24;n#!!top" expanded="false" />
-            <element signature="e#19154#19962#0#PHP" expanded="false" />
-            <element signature="n#div#25;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#25;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#25;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#25;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#25;n#!!top" expanded="false" />
-            <element signature="e#19973#20778#0#PHP" expanded="false" />
-            <element signature="n#div#26;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#26;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#26;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#26;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#26;n#!!top" expanded="false" />
-            <element signature="e#20789#21561#0#PHP" expanded="false" />
-            <element signature="n#div#27;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#27;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#27;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#27;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#27;n#!!top" expanded="false" />
-            <element signature="e#21572#22368#0#PHP" expanded="false" />
-            <element signature="n#div#28;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#28;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#28;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#28;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#28;n#!!top" expanded="false" />
-            <element signature="e#22379#23203#0#PHP" expanded="false" />
-            <element signature="n#div#29;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#29;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#29;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#29;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#29;n#!!top" expanded="false" />
-            <element signature="e#23262#23965#0#PHP" expanded="false" />
-            <element signature="n#div#30;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#30;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#30;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#30;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#30;n#!!top" expanded="false" />
-            <element signature="e#23976#24717#0#PHP" expanded="false" />
-            <element signature="n#div#31;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#31;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#31;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#31;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#31;n#!!top" expanded="false" />
-            <element signature="e#24728#25491#0#PHP" expanded="false" />
-            <element signature="n#div#32;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#32;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#32;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#32;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#32;n#!!top" expanded="false" />
-            <element signature="e#25502#26294#0#PHP" expanded="false" />
-            <element signature="n#div#33;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#33;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#33;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#33;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#33;n#!!top" expanded="false" />
-            <element signature="e#26305#27037#0#PHP" expanded="false" />
-            <element signature="n#div#34;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#34;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#34;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#34;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#34;n#!!top" expanded="false" />
-            <element signature="e#27048#27792#0#PHP" expanded="false" />
-            <element signature="n#div#35;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#35;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#35;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#35;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#35;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-            <element signature="e#27915#27957#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/requests.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="854" column="30" selection-start-line="854" selection-start-column="30" selection-end-line="854" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/mainmenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/profileApproval.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/lifecycleSuperiorEvaluationFrom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/viewNotification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="1252" column="74" selection-start-line="1252" selection-start-column="65" selection-end-line="1252" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/resignationPopup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="76" column="95" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="95" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
