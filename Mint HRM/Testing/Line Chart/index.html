@@ -1,0 +1,75 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages': ['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['', 'Self', 'Peer','Subordinate','Superior'],
+                ['Modeling the Way', 1000, 400,200,100],
+                ['Inspiring a Shared Vision', 1170, 460,500,300],
+                ['Challenging the Process', 660, 1120,200,400],
+                ['Enabling Other to Act', 1030, 540,150,350],
+                ['Encouraging the Heart', 1030, 540,100,200],
+                ['Test', 1030, 540,100,450]
+            ]);
+
+            var options = {
+                title: 'Company Performance',
+                legend: {
+                    position: 'bottom',
+                    textStyle:{
+                        fontSize:12,
+                        color: '#eeeaea'
+                    }
+                },
+                series: {
+                    0: { color: '#49b3cc' },
+                    1: { color: '#168ca8' },
+                    2: { color: '#4fdb9b' },
+                    3: { color: '#f26b55' },
+                    4: { color: '#f9d452' },
+                    5: { color: '#43459d' }
+                },
+                chartArea:{
+                    width:"88%",
+                    height:"75%",
+                    backgroundColor: '#6ecce0'
+                },
+                backgroundColor: '#eee',
+                crosshair: {
+                    trigger: 'focus',
+                    opacity:0.4
+                },
+                hAxis: {
+
+                    textStyle:{
+                        fontSize:12,
+                        color: '#FFF'
+                    }
+                },
+                vAxis: {
+                    textStyle:{
+                        fontSize:12,
+                        color: '#FFF'
+                    }
+                }
+
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+
+
+</head>
+<body>
+<center>
+    <div id="curve_chart" style="width: 1080px; height: 500px"></div>
+</center>
+</body>
+</html>

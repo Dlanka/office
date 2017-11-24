@@ -1,0 +1,67 @@
+/*Box Tab*/
+
+.box-tab-wrapper,
+.box-tab-wrapper .box-tab,
+.box-tab-wrapper .box-tab-container {
+    float: left;
+    width: 100%;
+}
+
+.box-tab-wrapper {
+
+}
+
+.box-tab-wrapper .box-tab {
+    margin: 0;
+    padding: 0;
+}
+
+.box-tab-wrapper .box-tab li {
+    position: relative;
+    float: left;
+    list-style: none;
+    text-align: center;
+    background: #fff;
+}
+
+.box-tab-wrapper .box-tab li.active {
+    background: #49b3cc;
+    color: #fff;
+}
+
+.box-tab-wrapper .box-tab li.active:before {
+    position: absolute;
+    content: '';
+    border-width: 10px 10px 0 10px;
+    border-color: #49b3cc transparent transparent transparent;
+    border-style: solid;
+    left: calc(50% - 10px);
+    bottom: -10px;
+}
+
+.box-tab-wrapper .box-tab li a {
+    color: #dbdbdb;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-tab-wrapper .box-tab-container {
+    padding: 30px 0;
+
+}
+
+.box-tab-wrapper .box-tab-container .tab-item {
+    display: none;
+}
+
+.box-tab-wrapper .box-tab-container .tab-item.active {
+    display: block;
+}

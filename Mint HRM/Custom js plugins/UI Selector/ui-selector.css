@@ -1,0 +1,120 @@
+/*Select box*/
+.ui-selector,
+.ui-selector .ui-selector-top,
+.ui-selector .ui-selector-top .text,
+.ui-selector .ui-selector-top span.selected,
+.ui-selector .ui-selector-top span.icon {
+    float: left;
+    width: 100%;
+}
+
+.ui-selector {
+    position: relative;
+}
+
+.ui-selector .ui-selector-top {
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(78, 79, 75, 0.2);
+}
+
+.ui-selector .ui-selector-top .text {
+    font-size: 16px;
+    color: rgba(78, 79, 75, 0.86);
+}
+
+.ui-selector .ui-selector-top .text span {
+    display: block;
+}
+
+.ui-selector .ui-selector-top span.selected {
+    width: 96%;
+    min-height: 1px;
+}
+
+.ui-selector .ui-selector-top span.icon {
+    width: 4%;
+    text-align: center;
+}
+
+.ui-selector .ui-selector-top span.icon i {
+    width: 12px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0) url("../../images/system/icon/form/12/i_12_select-default.png") no-repeat;
+}
+
+.ui-selector.focus .ui-selector-top span.icon i {
+    background: rgba(0, 0, 0, 0) url("../../images/system/icon/form/12/i_12_select-active.png") no-repeat;
+}
+
+.ui-selector .ui-selector-top span.text-label {
+    position: absolute;
+    color: rgba(78, 79, 75, 0.86);
+    font-size: 16px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    top: 2px;
+    left: 0;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.ui-selector.focus .ui-selector-top {
+    border-color: #49b3cc;
+}
+
+.ui-selector-top.selected span.text-label {
+    top: -15px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.ui-selector.focus span.text-label {
+    color: #49b3cc;
+}
+
+.ui-selector .ui-selector-bottom {
+    display: none;
+    position: absolute;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    z-index: 3;
+}
+
+.ui-selector .ui-selector-bottom ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-selector .ui-selector-bottom ul li {
+    list-style: none;
+    padding: 8px 15px;
+    color: rgba(78, 79, 75, 0.86);
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.ui-selector .ui-selector-bottom ul li:hover {
+    background: #eeeaea;
+}
+
+.ui-selector .ui-selector-bottom ul li.selected {
+    background: #eeeaea;
+}
+
+.ui-selector .ui-selector-bottom.scrollable {
+    max-height: 210px;
+    overflow-y: scroll;
+}
+

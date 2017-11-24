@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/question-animation.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="col-md-12">
+
+        <div class="question-animation">
+            <ul class="question-wrapper">
+                <li>
+                    <h1 style="height: 200px;">Question 1</h1>
+                </li>
+                <li>
+                    <h1 style="height: 200px;">Question 2</h1>
+                </li>
+                <li>
+                    <h1 style="height: 250px;">Question 3</h1>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script>
+
+    ;
+    (function ($) {
+        $.fn.Question = function () {
+
+            return this.each(function () {
+                var _this = $(this);
+                var activatablePosition = 0;
+                var itemPositionArray = [];
+                var scrollTopVal = 0;
+
+                var getScreenHeight = function () {
+                    return $(window).height();
+                };
+
+                var calTopSpaceByScreen = function () {
+                    return getScreenHeight() * (1 / 3);
+                };
+
+                var calActivatablePosition = function () {
+                    activatablePosition = _this.offset().top;
+                };
+
+                var getChildOffset = function () {
+                    var child = [];
+                    _this.find('li').each(function () {
+                        child.push($(this).offset().top);
+                    });
+                    return child;
+                };
+
+                var setItemPosition = function () {
+                    itemPositionArray = [];
+
+                    _this.find('li').each(function () {
+                        var activePos = $(this).offset().top - activatablePosition;
+                        itemPositionArray.push({
+                            id: $(this).attr('id'),
+                            position: activePos,
+                            origin: $(this).offset().top
+                        });
+                    });
+                };
+
+                var scrollDirection = function (val) {
+
+                    //if(scrollTopVal > val)
+                };
+
+                function definedMarginTop() {
+                    _this.css('margin-top', calTopSpaceByScreen() + 'px');
+                    _this.css('margin-bottom', calTopSpaceByScreen() + 'px');
+                }
+
+                function init() {
+                    _this.find('li:first').addClass('focus');
+
+                    _this.find('li').each(function (i) {
+                        $(this).attr('id', 'index' + i);
+                    });
+
+                    setItemPosition();
+
+                    console.log(itemPositionArray);
+                }
+
+                function updateUI() {
+
+                    //_this.find('li:first').addClass('focus');
+
+                    itemPositionArray.some(function (data) {
+                        if (data.position <= scrollTopVal && scrollTopVal <= data.origin) {
+                            _this.find('#' + data.id).addClass('focus');
+                        } else {
+                            _this.find('#' + data.id).removeClass('focus');
+                        }
+                    });
+                }
+
+                $(window).bind('load', function () {
+                    definedMarginTop();
+                    calActivatablePosition();
+                    init();
+
+                });
+
+                $(window).bind('resize', function () {
+                    definedMarginTop();
+                    setItemPosition();
+                    calActivatablePosition();
+                    updateUI();
+                });
+
+                $(window).bind('scroll', function () {
+                    scrollTopVal = $(this).scrollTop();
+                    calActivatablePosition();
+                    updateUI();
+
+                });
+
+            });
+
+        };
+    })(jQuery);
+
+    $('.question-wrapper').Question();
+
+
+</script>
+
+</body>
+</html>

@@ -1,33 +1,86 @@
-<!--Per Header-->
-<wrapper class="per-header-wrp">
-    <container>
+<!--Header and Content-->
+<wrapper class="outer">
+    <spacer size="30"></spacer>
+
+    <!--Per Header -->
+    <container class="per-header-wrp">
         <row>
-            <columns small="12">
-                <spacer size="70"></spacer>
+            <columns small="12" class="plr-50">
+                <spacer size="5"></spacer>
                 <a href="#">
-                    <!--<img class="small-float-center" src="http://45.55.175.151/hris/uploads/company/200/emp_5860b1a9ba453.png" alt="">-->
                     <img class="small-float-center" src="[header_logo]" alt="">
                 </a>
-                <spacer size="25"></spacer>
+                <spacer size="5"></spacer>
             </columns>
         </row>
     </container>
-</wrapper>
-<!--Header-->
-<wrapper class="header-wrp">
-    <container class="inner-set">
+
+    <!--Header-->
+    <container class="header-wrp">
+        <row class="inner-set">
+            <columns small="12" class="plr-50">
+                <h1 class="title small-text-center head-dark text-cpt">Now you are online with minthrm</h1>
+                <spacer size="55"></spacer>
+            </columns>
+        </row>
+    </container>
+
+    <!--Main Content-->
+    <container class="main-body bg-blue">
+
         <row>
-            <columns small="12">
-                <spacer size="60"></spacer>
-                <h1 class="title small-text-center">[email_subject]</h1>
-                <spacer size="65"></spacer>
+            <columns class="plr-50">
+                <spacer size="40"></spacer>
             </columns>
         </row>
-    </container>
-</wrapper>
-<!--Main Content-->
-<wrapper class="main-body">
-    <container>
+
+        <!--Open Top Content-->
+        <row>
+            <columns class="plr-50">
+
+                <row>
+                    <columns small="12">
+                        <h5 class="u-name">Hi [emp_name],</h5>
+                        <p class="mb-0 text-white-56">You are warmly welcome to the MintHRM Application now you can perform HR related transections using below login details.</p>
+                    </columns>
+
+                </row>
+
+                <row>
+                    <columns small="12">
+                        <spacer size="30"></spacer>
+
+                        <row>
+                            <columns large="2" small="6">
+                                <p class="text-bold text-white">Username</p>
+                            </columns>
+                            <columns large="10" small="6">
+                                <p class="text-bold text-white">
+                                    <span class="pr-5">:</span>
+                                    <span>[user_name]</span>
+                                </p>
+                            </columns>
+                        </row>
+
+                        <spacer size="6"></spacer>
+
+                        <row>
+                            <columns large="2" small="6">
+                                <p class="text-bold text-white">Password</p>
+                            </columns>
+                            <columns large="10" small="6">
+                                <p class="text-bold text-white">
+                                    <span class="pr-5">:</span>
+                                    <span>[user_password]</span>
+                                </p>
+                            </columns>
+                        </row>
+
+                    </columns>
+                </row>
+
+            </columns>
+        </row>
 
         <row>
             <columns>
@@ -35,109 +88,45 @@
             </columns>
         </row>
 
-        <!--Content open-->
-
-        <!--Open Top Content-->
         <row>
+
             <columns>
-                <h5 class="u-name">Hi [coverup_name],</h5>
-                <p>[requester_name]'s request for leave from [leave_start] to [leave_end] has been approved by
-                    [approver_name] and as agreed . You are expected to cover-up his/her duties during this period.</p>
-                <p>Approver commented: [approver_comment] </p>
-                <p>Leave Date [leave_dates]</p>
-            </columns>
-        </row>
-        <!--Close Top Content-->
-
-        <!--Open Controller contents-->
-
-        <row>
-            <columns>
-                <!--<spacer size="10"></spacer>-->
-
-                <!--
-                    full
-                    half mr
-                    half ev
-                -->
-
                 <row>
-                    <columns>
-                        <spacer size="10"></spacer>
-                        <row class="tb-head">
-                            <columns large="4"><p class="h-text">Shift Date & Time</p></columns>
-                            <columns large="2"><p class="h-text">Date In</p></columns>
-                            <columns large="2"><p class="h-text">Time In</p></columns>
-                            <columns large="2"><p class="h-text">Date Out</p></columns>
-                            <columns large="2"><p class="h-text">Time Out</p></columns>
-                        </row>
-                        <spacer size="10"></spacer>
-
-                        <row class="b-row">
-                            <columns class="b-btm" large="4"><p class="b-text f-12 light-text ">2016-12-08( 08:30-17:30)</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">2016-12-08</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">08:26</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">2016-12-08</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">17:20</p></columns>
-                        </row>
-
-                        <row class="b-row">
-                            <columns class="b-btm" large="4"><p class="b-text f-12 light-text ">2016-12-08( 08:30-17:30)</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">2016-12-08</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">08:26</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">2016-12-08</p></columns>
-                            <columns class="b-btm" large="2"><p class="b-text f-12 light-text ">17:20</p></columns>
-                        </row>
-
-
-                        <spacer size="40"></spacer>
+                    <columns large="4" small="12">
+                        <button href="#" class="btn-yellow">Click here to login</button>
                     </columns>
-
                 </row>
 
-
-
-                <spacer size="40"></spacer>
-            </columns>
-
-        </row>
-
-        <!--Close Controller contents-->
-
-        <!--Footer-->
-        <row>
-            <columns>
-                <p>This is auto generated Email if you need more clarification please contact HR Department.</p>
-                <p>Thank you.</p>
             </columns>
         </row>
-        <!--Content close-->
 
-
+        <!--spacer 50-->
         <row>
             <columns>
-                <spacer size="40"></spacer>
+                <spacer size="50"></spacer>
             </columns>
         </row>
 
     </container>
+    <!--Close Main Content-->
+
+    <spacer size="30"></spacer>
+
 </wrapper>
-<!--Footer-->
-<wrapper class="footer">
-    <container>
 
-        <row>
-            <columns small="12" large="12">
-                <hr class="line">
+<!--Footer Wrapper-->
+<wrapper class="bg-dark">
+
+    <!--Footer-->
+    <container class="  bg-dark">
+        <spacer size="28"></spacer>
+        <row class="bg-dark">
+            <columns small="12" large="12" class="plr-0">
+                <img src="http://45.55.175.151/hris/images/system/logo/150/mint-logo-150.png" alt="">
+                <p class="cool-text">EXPERIENCE IT ! IT’S REALLY COOL !</p>
             </columns>
         </row>
-
-        <row>
-            <columns small="12" large="12">
-                <spacer size="5"></spacer>
-                <img src="http://45.55.175.151/hris/images/system/logo/100/minthrm_100_logo.png" alt="">
-            </columns>
-        </row>
-
+        <spacer size="28"></spacer>
     </container>
+
 </wrapper>

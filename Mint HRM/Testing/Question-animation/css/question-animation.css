@@ -1,0 +1,32 @@
+
+.question-wrapper {
+    margin:0;
+    padding:0;
+    float: left;
+    width:100%;
+}
+
+.question-wrapper li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    padding:20px 0;
+    height:100%;
+
+}
+.question-wrapper li:before {
+    height:inherit;
+    width:100%;
+    position: absolute;
+    top:0;
+    display: block;
+    left:0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index:1;
+    content: '';
+}
+.question-wrapper li.focus:before {
+    background: transparent;
+    z-index:-1;
+}

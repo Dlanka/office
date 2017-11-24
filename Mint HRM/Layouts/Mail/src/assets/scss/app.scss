@@ -4,8 +4,8 @@
 $borderColor: rgba(67, 72, 73, 0.30);
 $red: #F26B55;
 
-$text-opacity-56:0.56;
-$text-opacity-86:0.86;
+$text-opacity-56: 0.56;
+$text-opacity-86: 0.86;
 
 .f-12 {
   font-size: 12px !important;
@@ -30,7 +30,6 @@ $text-opacity-86:0.86;
 .light-text {
   color: rgba(67, 72, 73, 0.86) !important;
 }
-
 
 .b-btm {
   border-bottom: 1px solid $borderColor;
@@ -59,9 +58,9 @@ th.columns.p-10 {
 }
 
 .header-wrp {
-  background-color: #49b3cc;
+  background-color: #ffffff;
   .inner-set {
-    background: #49b3cc;
+    background: #ffffff;
 
     .title {
       text-transform: uppercase;
@@ -73,7 +72,7 @@ th.columns.p-10 {
 }
 
 .main-body {
-  background-color: #fff;
+  background-color: #49b3cc;
 }
 
 .button {
@@ -652,4 +651,110 @@ h6 {
       }
     }
   }
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.plr-50 {
+  //padding: 0 50px !important;
+}
+
+.ptb-28 {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+
+.outer {
+  background-color: #dbdbdb;
+}
+
+.text-light-dark {
+  color: #666666 !important
+}
+
+.text-bold {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.bg-dark {
+  background-color: #434849 !important;
+}
+
+.cool-text {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 10px;
+  color: #dbdbdb;
+  text-transform: uppercase;
+}
+
+table.button.btn-yellow table td {
+  background: #f9d452;
+  border: none !important;
+}
+
+table.button.btn-yellow table td a {
+  background: #f9d452;
+  border-radius: 0;
+  padding: 14px 40px;
+  text-transform: uppercase;
+  color: #434849;
+}
+
+.bg-white {
+  background: #f7f7f7 !important;
+}
+
+td.large-12.last, th.large-12.last {
+  padding-right: 50px;
+}
+
+td.large-12.first, th.large-12.first {
+  padding-left: 50px;
+}
+
+td.large-12.last.plr-0, th.large-12.last.plr-0 {
+  padding-right: 0;
+}
+
+td.large-12.first.plr-0, th.large-12.first.plr-0 {
+  padding-left: 0;
+}
+
+.head-dark {
+  color: #434849 !important;
+}
+
+.bg-blue {
+  background: #49b3cc !important;
+}
+
+table.container.main-body {
+  background: #49b3cc;
+}
+
+.u-name {
+  color: #ebf5f8;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-white-56 {
+  color: #bde0e9;
+}
+
+.space-30 {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.text-cpt {
+  text-transform: inherit !important;
 }
